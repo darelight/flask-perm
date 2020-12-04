@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import current_app
-from flask.ext.script import Manager, prompt_pass, prompt_bool
+from flask_script import Manager, prompt_pass, prompt_bool
 from flask_perm.services import SuperAdminService
 
 perm_manager = Manager(usage="Perform permission operations")
